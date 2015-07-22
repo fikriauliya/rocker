@@ -1,5 +1,5 @@
 ## Start with the official rocker image providing 'base R'
-FROM r-base:latest
+FROM fikriauliya/r-base:latest
 ## This handle reaches Carl and Dirk
 MAINTAINER "Carl Boettiger and Dirk Eddelbuettel" rocker-maintainers@eddelbuettel.com
 
