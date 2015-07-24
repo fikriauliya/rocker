@@ -22,6 +22,8 @@ RUN rm -rf /var/lib/apt/lists/ \
     libssl-dev \
     psmisc \
     supervisor \
+    libpq-dev \
+    postgresql-client \
     sudo \
   && VER=$(wget --no-check-certificate -qO- https://s3.amazonaws.com/rstudio-server/current.ver) \
   && wget -q http://download2.rstudio.org/rstudio-server-${VER}-amd64.deb \
